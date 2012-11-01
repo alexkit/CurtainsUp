@@ -1,8 +1,8 @@
-# [CurtainsUp](http://alexduloz.github.com/curtainsup/)
+# [CurtainsUp](http://alexduloz.github.com/CurtainsUp/)
 
 ## An aggregator of coolness/amazing tools for your web projects
 
-[Project homepage](http://alexduloz.github.com/curtainsup/)
+[Project homepage](http://alexduloz.github.com/CurtainsUp/)
 
 CurtainsUp is a boilerplate which has the philosophy of providing developers with *a real lot* of cool libraries. All those tools are disabled by default (commented out). Start coding, and unleash a tool every time you need it by uncommenting it. 
 

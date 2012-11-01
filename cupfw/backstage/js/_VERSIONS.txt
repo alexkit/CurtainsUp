@@ -1,0 +1,4 @@
+The "License.md" file in the root directory of this project
+holds the versions of featured libraries.
+Always refer to "License.md" to know which version 
+is used. (Usually, the latest.) 

@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <title>CurtainsUp</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="An aggregator of coolness/amazing tools for your applications">
+    <meta name="author" content="Alex Duloz">
+    <script type="text/javascript" src="//use.typekit.net/sre3hoe.js"></script>
+	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+    <link href="css/main.css" rel="stylesheet">
+    
+  </head>
+
+  <body>
+  <div class="container">
+  
+  <div class="banner">
+  
+    <p class="title">curtainsup: an aggregator of coolness &amp; amazing tools for your applications</p>
+    <p>CurtainsUp is a boilerplate which has the philosophy of providing developers with <em>a real lot</em> of cool libraries. Start coding, and unleash a tool every time you need it by uncommenting it.</p>
+  
+        <ul class="teaser">
+        <li><a href="http://twitter.github.com/bootstrap/" title="Twitter Bootstrap">Twitter Bootstrap</a></li>
+        <li><a href="http://html5boilerplate.com/" title="HTML5 Boilerplate">HTML5 Boilerplate (Utility Classes)</a></li>
+        <li><a href="http://jquery.org/" title="jQuery">jQuery</a></li>
+        <li><a href="http://underscorejs.org" title="Underscore.js">Underscore.js</a></li>
+        <li><a href="http://backbonejs.org" title="Backbone.js">Backbone.js</a></li>
+        <li><a href="http://lesscss.org/" title="LESS">LESS</a></li>
+        <li><a href="http://git.io/normalize" title="Normalize.css">Normalize.css</a></li>
+        <li><a href="http://modernizr.com/" title="Modernizr">Modernizr</a></li>
+        <li><a href="http://leaverou.github.com/prefixfree/" title="Prefixfree">Prefixfree</a></li>
+        <li><a href="http://imakewebthings.com/jquery-waypoints/" title="jQuery Waypoints">jQuery Waypoints</a></li>
+        <li><a href="http://fittextjs.com/" title="FitText.js">FitText.js</a></li>
+        <li><a href="http://letteringjs.com/" title="Lettering.js">Lettering.js</a></li>
+        <li><a href="http://fgnass.github.com/spin.js/" title="Spin.js">Spin.js</a></li>
+        <li><a href="http://benalman.com/projects/jquery-throttle-debounce-plugin/" title="jQuery Throttle Debounce">jQuery Throttle Debounce</a></li>
+        <li><a href="http://code.google.com/p/google-code-prettify/" title="Prettify">Prettify</a></li>
+      </ul>
+      
+    <div class="socialite">
+      <ul class="ss-icon" role="navigation">
+      	<li class="nav-word"><a href="#" title="Download">Download v0.1.0</a></li>
+      	<li class="nav-word"><a href="https://github.com/alexduloz/curtainsup" title="On Github">Github Project</a></li>
+      	<li class="nav-word"><a href="https://twitter.com/alexduloz" title="Twitter">@alexduloz</a></li>
+      </ul>
+    </div>
+  
+  </div>
+
+    <div id="how-to-use" class="explanation">
+      <h1 class="h-alpha">How to use</h1>
+      <p>Once you have downloaded CurtainsUp, simply rename the &quot;blueprint.html&quot; file to suit your purpose (&quot;index.html&quot;, &quot;article.html&quot; etc.). And that's it.</p>
+    </div>
+
+    <div id="cupfw" class="explanation">
+      <h1 class="h-alpha">CurtainsUp For Wordpress</h1>
+      <p>CUpfW is a lightweight WP Template derived from the <a href="http://alexduloz.github.com/frontin">Frontin</a> project which provides you with all the tools available in CurtainsUp, so everything you read in this documentation also applies to CUpfW.</p>
+    </div>
+
+    <div id="before-going-live" class="explanation">
+      <h1 class="h-alpha">Before Going Live</h1>
+      <p>When you’re done building your application and ready to open its doors to the masses, make sure you improve your application’s performance by reducing http requests: minify the .js tools you have used and store them in one file (that would be &quot;js/min.js&quot;). Then comment out the libraries that have been minified as you don’t need to request them anymore. Do the same with CSS libraries (just store them in &quot;css/min.css&quot;).</p>
+    </div>
+
+    <div id="how-to-upgrade" class="explanation">
+      <h1 class="h-alpha">How to upgrade</h1>
+      <p>With all the libraries included in CurtainsUp, the project will certainly be updated quite often. All the tools aggregated in CurtainsUp are located in a folder named &quot;backstage&quot;. You may have noticed that the bits of code including JS and CSS tools in blueprint.html are version-agnostic, so when an upgrade occurs, all you have to do is download the backstage folder and use it in place of the previous one.</p>
+    </div>
+
+    <div id="versioning" class="explanation">
+      <h1 class="h-alpha">Versioning</h1>
+      <p>CurtainsUp adheres to the semantic versioning system:</p> 
+      <p class="center">&lt;major&gt;.&lt;minor&gt;.&lt;patch&gt;</p>
+      <p>The patch version is incremented when a small change is made to CurtainsUp, whether it’s a slight modification to the project’s markup, or a library which has itself incremented its patch version.</p>
+      <p>The minor version is incremented when the included libraries have been updated in a more significant way (usually when they have incremented their own minor OR major version).</p>
+      <p>The major version of CurtainsUp is incremented if/when new libraries are added to the project.</p>
+      <p>When patch or minor versions are incremented, it is unlikely that you will have to modify or download again the blueprint.html file and the files that derived from them (always check the changelog to make sure of that, though). In such cases, you should probably just update your project by replacing your old backstage folder with the newly downloaded one.</p>
+      <p>When the major version is incremented, however, you should also update your blueprint.html file and the files that derived from them. You can simply check the changelog to see how to include the new libraries added to the project.</p>
+      <p>The backstage folder doesn’t bear the number of its own version. This makes updating CurtainsUp easier: you don’t have to modify all your file inclusions every time you upgrade. The current version of CusrtainsUp can be found in the "version.txt" file located in the backstage folder. The versions of the libraries included in CUp are found in the LICENSE.md file.</p>
+      <p>CUp and CUpfW stand by each other in terms of versioning. Check the changelog to see if an update is of no interest to you (for example if CUpfW has been updated and you’re only using CUp).</p>
+    </div>
+
+    <div id="how-to-help" class="explanation">
+      <h1 class="h-alpha">How to help</h1>
+      <p>If you want to monitor specific libraries and handle their updates, please get in touch with <a href="https://twitter.com/alexduloz" title="Twitter">@alexduloz</a>. The more people get involved, the more efficient we will be, and the more accurate the versions used in CurtainsUp will be.</p>
+    </div>
+    
+    <div id="about" class="explanation">
+      <h1 class="h-alpha">About</h1>
+      <h2 class="h-beta">A word from the author</h2>
+      <p>CurtainsUp was born at a time when many people were requesting features for <a href="https://twitter.com/thepastrybox" title="The Pastry Box Project">@thepastrybox</a>. I thought it would be nice if they had the opportunity to pull requests for a project they were enthusiastic about. I thought that, instead of using my own little frameworks, it would be smart to use libraries that are well-documented and that many people use. Since I didn’t know exactly which tools would be needed, I decided to go overboard and provide a very rich, broad offer, so that everyone could easily pick the tools they needed.</p>
+      <p>I’ve used CurtainsUp on a few projects now besides the Pastry Box template and it takes me seconds to get started, and seconds to go live (I just have to remove/comment out the bits of code/plugins not used). I’ve used CurtainsUp with both the <a href="http://framework.zend.com/" title="Zend Framework">Zend Framework</a> and <a href="http://www.slimframework.com/" title="Slim Framework">Slim</a>; in both cases the mutual inclusions worked great.</p>
+      <p>CurtainsUp is a humble venture. I don’t deserve much credit for it. I’ve done my best to pay tribute to the awesome projects included in CUp. If you have authored some of the code aggregated in "backstage" and feel your work hasn’t been given the respect it deserves, please get in touch with me.</p>
+    </div>
+    
+    </div>
+    
+</body>
+</html>

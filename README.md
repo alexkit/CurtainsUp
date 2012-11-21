@@ -42,7 +42,7 @@ CUpfW is a lightweight WP Template derived from the [Frontin](https://github.com
 
 ## Before Going Live
 
-When you’re done building your application and ready to open its doors to the masses, make sure you improve your application’s performance by reducing http requests: minify the .js tools you have used and store them in one file (that would be "js/min.js"). Then comment out the libraries that have been minified as you don’t need to request them anymore. Do the same with CSS libraries (just store them in "css/min.css").
+When you're done building your application and ready to open its doors to the masses, make sure you improve your application's performance by reducing http requests: minify the .js tools you have used and store them in one file (that would be "js/min.js"). Then comment out the libraries that have been minified as you don't need to request them anymore. Do the same with CSS libraries (just store them in "css/min.css").
 
 ## How to upgrade
 
@@ -52,9 +52,9 @@ With all the libraries included in CurtainsUp, the project will certainly be upd
 ## Versioning
 CurtainsUp adheres to the semantic versioning system: 
 
-<major>.<minor>.<patch>
+major.minor.patch
 
-The patch version is incremented when a small change is made to CurtainsUp, whether it’s a slight modification to the project’s markup, or a library which has itself incremented its patch version.
+The patch version is incremented when a small change is made to CurtainsUp, whether it's a slight modification to the project's markup, or a library which has itself incremented its patch version.
 
 The minor version is incremented when the included libraries have been updated in a more significant way (usually when they have incremented their own minor OR major version).
 
@@ -64,9 +64,9 @@ When patch or minor versions are incremented, it is unlikely that you will have 
 
 When the major version is incremented, however, you should also update your blueprint.html file and the files that derived from them. You can simply check the changelog to see how to include the new libraries added to the project.
 
-The backstage folder doesn’t bear the number of its own version. This makes updating CurtainsUp easier: you don’t have to modify all your file inclusions every time you upgrade. The current version of CusrtainsUp can be found in the "version.txt" file located in the backstage folder. The versions of the libraries included in CUp are found in the LICENSE.md file.
+The backstage folder doesn't bear the number of its own version. This makes updating CurtainsUp easier: you don't have to modify all your file inclusions every time you upgrade. The current version of CusrtainsUp can be found in the "version.txt" file located in the backstage folder. The versions of the libraries included in CUp are found in the LICENSE.md file.
 
-CUp and CUpfW stand by each other in terms of versioning. Check the changelog to see if an update is of no interest to you (for example if CUpfW has been updated and you’re only using CUp).
+CUp and CUpfW stand by each other in terms of versioning. Check the changelog to see if an update is of no interest to you (for example if CUpfW has been updated and you're only using CUp).
 
 ## How to help
 
@@ -76,11 +76,11 @@ If you want to monitor specific libraries and handle their updates, please get i
 
 ### A word from the author
 
-CurtainsUp was born at a time when many people were requesting features for [@thepastrybox](https://twitter.com/thepastrybox). I thought it would be nice if they had the opportunity to pull requests for a project they were enthusiastic about. I thought that, instead of using my own little frameworks, it would be smart to use libraries that are well-documented and that many people use. Since I didn’t know exactly which tools would be needed, I decided to go overboard and provide a very rich, broad offer, so that everyone could easily pick the tools they needed.
+CurtainsUp was born at a time when many people were requesting features for [@thepastrybox](https://twitter.com/thepastrybox). I thought it would be nice if they had the opportunity to pull requests for a project they were enthusiastic about. I thought that, instead of using my own little frameworks, it would be smart to use libraries that are well-documented and that many people use. Since I didn't know exactly which tools would be needed, I decided to go overboard and provide a very rich, broad offer, so that everyone could easily pick the tools they needed.
 
-I’ve used CurtainsUp on a few projects now besides the Pastry Box template and it takes me seconds to get started, and seconds to go live (I just have to remove/comment out the bits of code/plugins not used). I’ve used CurtainsUp with both the [Zend Framework](http://framework.zend.com/) and [Slim](http://www.slimframework.com/); in both cases the mutual inclusions worked great.
+I've used CurtainsUp on a few projects now besides the Pastry Box template and it takes me seconds to get started, and seconds to go live (I just have to remove/comment out the bits of code/plugins not used). I've used CurtainsUp with both the [Zend Framework](http://framework.zend.com/) and [Slim](http://www.slimframework.com/); in both cases the mutual inclusions worked great.
 
-CurtainsUp is a humble venture. I don’t deserve much credit for it. I’ve done my best to pay tribute to the awesome projects included in CUp. If you have authored some of the code aggregated in "backstage" and feel your work hasn’t been given the respect it deserves, please get in touch with me.
+CurtainsUp is a humble venture. I don't deserve much credit for it. I've done my best to pay tribute to the awesome projects included in CUp. If you have authored some of the code aggregated in "backstage" and feel your work hasn't been given the respect it deserves, please get in touch with me.
 
 ## Change Log
 

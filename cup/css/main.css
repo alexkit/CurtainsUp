@@ -1,5 +1,24 @@
+
+/* Entypo ~ Uncomment to enable */
+
+/*
+@font-face {
+    font-family: 'Entypo';
+    src: url('../backstage/fonts/entypo/entypo.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'EntypoSocial';
+    src: url('../backstage/fonts/entypo/entypo-social.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+*/
+
 .wrapper {
-	
+	font-family: "Entypo";
 	}
 
 .banner {

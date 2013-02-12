@@ -4,8 +4,6 @@
 
 CurtainsUp is a boilerplate which has the philosophy of providing developers with *a real lot* of cool libraries. All those tools are disabled by default (commented out). Start coding, and unleash a tool every time you need it by uncommenting it. 
 
-CurtainsUp is also available as a Wordpress template (based on the [Frontin](https://github.com/alexduloz/frontin) project) named "CurtainsUp For Wordpress".
-
 <ul>
     <li><a href="http://twitter.github.com/bootstrap/" title="Twitter Bootstrap">Twitter Bootstrap</a></li>
     <li><a href="http://html5boilerplate.com/" title="HTML5 Boilerplate">HTML5 Boilerplate (Utility Classes)</a></li>
@@ -22,23 +20,19 @@ CurtainsUp is also available as a Wordpress template (based on the [Frontin](htt
     <li><a href="http://fgnass.github.com/spin.js/" title="Spin.js">Spin.js</a></li>
     <li><a href="http://benalman.com/projects/jquery-throttle-debounce-plugin/" title="jQuery Throttle Debounce">jQuery Throttle Debounce</a></li>
     <li><a href="http://code.google.com/p/google-code-prettify/" title="Prettify">Prettify</a></li>
+    <li><a href="http://inuitcss.com/" title="Inuit.css">Inuit.css</a> <a href="https://github.com/peterwilsoncc/inuit.css" title="Inuit.css LESS port">(LESS port)</a></li>
+    <li><a href="http://www.entypo.com/" title="Entypo">Entypo</a></li>
 </ul>
 
-## Note
-
-I'm currently building a tool to help follow libraries included in CurtainsUp. Until it's ready, the project will not be updated.
 
 ## Download
 
-The files you are going to need are located either in "cup" (static site) or "cupfw" (Wordpress template).
+The files you are going to need are located either in "cup" folder. When upgrading to a new version, simply replace the "backstage" folder with the new one (see "How to upgrade" below).
 
 ## How To Use
 
-Once you have downloaded CurtainsUp, simply rename the "blueprint.html" file to suit your purpose ("index.html", "article.html" etc.). And that's it.
+Once you have downloaded CurtainsUp, simply rename the "blueprint.html" file to suit your purpose ("index.html", "article.php" etc.). And that's it.
 
-## CurtainsUp For Wordpress
-
-CUpfW is a lightweight WP Template derived from the [Frontin](https://github.com/alexduloz/frontin) project which provides you with all the tools available in CurtainsUp, so everything you read in this documentation also applies to CUpfW
 
 ## Before Going Live
 
@@ -66,8 +60,6 @@ When the major version is incremented, however, you should also update your blue
 
 The backstage folder doesn't bear the number of its own version. This makes updating CurtainsUp easier: you don't have to modify all your file inclusions every time you upgrade. The current version of CusrtainsUp can be found in the "version.txt" file located in the backstage folder. The versions of the libraries included in CUp are found in the LICENSE.md file.
 
-CUp and CUpfW stand by each other in terms of versioning. Check the changelog to see if an update is of no interest to you (for example if CUpfW has been updated and you're only using CUp).
-
 ## How to help
 
 If you want to monitor specific libraries and handle their updates, please get in touch with [@alexduloz](https://twitter.com/alexduloz). The more people get involved, the more efficient we will be, and the more accurate the versions used in CurtainsUp will be.
@@ -83,6 +75,10 @@ I've used CurtainsUp on a few projects now besides the Pastry Box template and i
 CurtainsUp is a humble venture. I don't deserve much credit for it. I've done my best to pay tribute to the awesome projects included in CUp. If you have authored some of the code aggregated in "backstage" and feel your work hasn't been given the respect it deserves, please get in touch with me.
 
 ## Change Log
+
+### 0.2.0
+
+Added [Harry Roberts](http://csswizardry.com/)' [Inuit.css](http://inuitcss.com/) ([Peter Wilson](https://twitter.com/pwcc)'s [LESS port](https://github.com/peterwilsoncc/inuit.css)) and [Daniel Bruce](http://www.danielbruce.se/)'s [Entypo](http://www.entypo.com/)
 
 ### 0.1.0
 

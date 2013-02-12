@@ -14,14 +14,21 @@
     <!--<link href="backstage/css/normalize.min.css" rel="stylesheet">-->
     <!--<link href="backstage/js/google-code-prettify/prettify.css" rel="stylesheet">-->
     
+    <!-- inuit.css ~ alternatively, you can @import those files directly in "less/main.less" -->
+    <!--<link href="backstage/inuit/vars.less" rel="stylesheet">-->
+    <!--<link href="backstage/inuit/inuit.css/inuit.less" rel="stylesheet">-->
+    
+    <!-- fonts ~ alternatively, you can enables fonts directly in "css/main.css"  -->
+    <!--<link href="backstage/fonts/entypo/entypo.css" rel="stylesheet">-->
+    
     <!-- your stylesheets: uncomment to enable personal stylesheets -->
-    <!--<link href="less/main.less" rel="stylesheet/less">-->
+    <link href="less/main.less" rel="stylesheet/less">
     <!--<link href="css/main.css" rel="stylesheet">-->
     <!--<link href="css/min.css" rel="stylesheet">-->
     
     <!-- js: uncomment to enable a specific tool -->    
-    <!--<script>var less = {env: "development"};</script>-->
-    <!--<script src="backstage/js/less.min.js"></script>-->
+    <script>var less = {env: "development"};</script>
+    <script src="backstage/js/less.min.js"></script>
     <!--<script src="backstage/js/modernizr.min.js"></script>-->
     <!--<script src="backstage/js/prefixfree.min.js"></script>-->
 
@@ -40,7 +47,7 @@
 
   <body>
     
-    <!-- content starts here: remove if you want to start from scratch -->
+    <!-- content starts here: remove what follows if you want to start from scratch -->
     
     <div class="wrapper">
       
@@ -51,7 +58,7 @@
       <div class="main" role="main">
         <h1 class="visuallyhidden">Main</h1>
         <div class="article" role="article">
-          <h3>Article</h3>
+          <h2>Article</h2>
           <p>Content</p>
         </div><!-- /.article -->
       </div><!-- /.main -->
@@ -106,8 +113,7 @@
     <!-- libraries at work -->
     <!--<script src="js/application.js"></script>-->
     
-    <!-- Analytics -->
-    
+    <!-- Google Analytics -->
     <!--
     <script>
       var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
